@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UT-8">
+<title>Test Project</title>
+<link rel ="stylesheet" type="text/css" href ="style.css"><!--adding style sheet-->
+<!--[if lt IE 9]>
+<script>
+document.createElement("article");
+document.createElement("aside");
+document.createElement("header");
+document.createElement("footer");
+document.createElement("section");
+document.createElement("main");
+document.createElement("nav");
+
+</script>
+<![endif]--><!--This is to use if broswer is less than IE9-->
+<style type= "text/css"><!--trying style within HTML, hover attribute for element a-->
+a:hover{
+color: orange;}
+</style>
+</head>
+<body>
+<header class="banner"><!--renamed this header as banner to give style-->
+<h1>Test Project</h1>
+
+
+</header>
+<nav>
+<ul>
+<li><a href="Archives.htm" >Archives </a></li>
+<li><a href="About.htm" >About </a></li>
+<li><a href="Newspage.htm" >Home </a></li>
+</ul>
+</nav>
+
+<main>
+<section>
+<h1>Local News</h1>
+<article>
+<header><h3> Main News</h3>
+<p>Some text</p></header>
+
+<p> Mobile phone subscriptions are rising worldwide, with India registering most additions in Q3, 2015, according to Ericsson's Mobility Report. Now there are as many mobile subscriptions as there are people on the planet. Smartphone subscriptions are growing even faster. Same for mobile broadband. </p>
+</article>
+<article>
+<header><h3>Some more local news</h3></header>
+<p>The number of mobile broadband subscriptions is growing globally by around 25 per cent year-on-year, increasing by approximately 160 million in Q3 2015 alone. This in turn is pushing up data traffic. Mobile data traffic is now forecast to grow 10-fold by the end of 2021, driven by rising consumption of video content on smartphones and tablets. Here's a look...</p>
+</article>
+</section>
+<section>
+<h1>National News</h1>
+<article>
+<header><h3> Main News</h3>
+<p> Some text</p></header>
+
+<p>Mobile phone subscriptions are rising worldwide, with India registering most additions in Q3, 2015, according to Ericsson's Mobility Report. Now there are as many mobile subscriptions as there are people on the planet. Smartphone subscriptions are growing even faster. Same for mobile broadband. The number of mobile broadband subscriptions is growing globally </p>
+</article>
+<article>
+<header><h3>Some more National News</h3></header>
+<p>by around 25 per cent year-on-year, increasing by approximately 160 million in Q3 2015 alone. This in turn is pushing up data traffic. Mobile data traffic is now forecast to grow 10-fold by the end of 2021, driven by rising consumption of video content on smartphones and tablets. Here's a look...</p>
+</article>
+</section>
+</main>
+<aside><!--This is moved to the right and audio and video controls are placed within it-->
+<h2>Aside section</h2>
+<p>This section is brought to the side</p>
+<p>Here is a sample video</p>
+<video height= 300 width= 250 controls><!--adding video controls with size spec-->
+<source src= "sample.mp4" type= video/mp4>
+</video>
+<p> Please check the audio file</p>
+<audio width= 200 controls><!--adding audio controls with size spec-->
+<source src= "kalimba.mp3" type= audio/mp3>
+</audio>
+</aside>
+<footer>
+<nav><!--placing nav within footer portion-->
+<ul>
+<li><a href="Contact.htm" >Contact </a></li>
+<li><a href="About.htm" >About </a></li>
+<li><a href="Credits.htm" >Credits </a></li>
+</ul>
+</nav>
+</footer>
+
+</body>
+
+</html>
